@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send-IT - Change Destination</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/parcel.js" defer></script>
+    <script src="../js/navigation.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Send-IT</h1>
+        </div>
+        <nav>
+            <a href="all-orders.html">All Orders</a>
+            <a href="create-order.html">Create Order</a>
+            <a href="index.html" id="logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="form-container">
+            <h2>Change Destination</h2>
+            <form id="change-destination-form">
+                <div class="form-group">
+                    <label for="new-destination">New Destination</label>
+                    <input type="text" id="new-destination" required>
+                </div>
+                <button type="submit" class="btn">Update Destination</button>
+                <p id="destination-error" class="error"></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
