@@ -6,7 +6,7 @@ Send-IT is a front-end web application for a courier service, allowing users to 
 ## Team Members
 - Joshua Lawrence Wallace - 21413/2023
 - Rachel Gifty Jippy - 21355/2023
--22003/2023
+- 22003/2023
 
 
 ## Technologies Used
